@@ -42,7 +42,7 @@ PHD Comics - Jorge Cham ([website](https://phdcomics.com/comics/archive.php?comi
 * Going from solo-coding to collaborative coding, it's important to adopt certain practices that are intended to help this new situation. {cite:p}`Wilson2014,Wilson2017`
 * Clean code: variables/functions named for what they mean. no duplication ("DRY": don't repeat yourself). fewer comments -> cover downside of overly verbose. 
 
-:::{note} Clean code: bad example
+:::{dropdown} Clean code: bad example
 :class: dropdown
 :open: false
 
@@ -72,7 +72,7 @@ print(dd)
 
 :::
 
-:::{note} Clean code: good example
+:::{dropdown} Clean code: good example
 :class: dropdown
 :open: false
 
@@ -117,6 +117,11 @@ print(f"The final velocity after 60 seconds is: {fall_velocity[60]:.1f} m/s")
 Software Carpentry: intro to version control (episode 1)
 :::
 
+**Paragraph 3**: Very bried exposure to collaborative development strategies
+* It's possible that at some point you join a very large team, likely in industry, that use sofisticated collaborative development management strategies
+* Examples: gile, cascade, etc.
+
+**Paragraph 4**: 
 
 # Version control
 
