@@ -19,6 +19,11 @@ jobs:
     permissions:
       contents: write
       issues: write
+    env:
+      # Empty on the production repo, which serves from a domain root.
+      # Set to /myst_book-staging on the staging fork, a Pages project page
+      # whose assets live under that prefix.
+      BASE_URL: ${{ vars.BASE_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
